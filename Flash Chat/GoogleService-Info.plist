@@ -36,5 +36,7 @@
 	<string>1:139350948054:ios:fa8baec187efff12</string>
 	<key>DATABASE_URL</key>
 	<string>https://flashchat-4fbe9.firebaseio.com</string>
+    <key>CFBundleURLTypes</key> <array> <dict> <key>CFBundleURLSchemes</key> <array> <string>fb2352961968271953</string> </array> </dict> </array> <key>FacebookAppID</key> <string>2352961968271953</string> <key>FacebookDisplayName</key> <string>flash chat</string>
+    <key>LSApplicationQueriesSchemes</key> <array> <string>fbapi</string> <string>fb-messenger-share-api</string> <string>fbauth2</string> <string>fbshareextension</string> </array>
 </dict>
 </plist>
