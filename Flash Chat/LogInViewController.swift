@@ -26,7 +26,7 @@ class LogInViewController: UIViewController {
 
    
     @IBAction func logInPressed(_ sender: AnyObject) {
-        Auth.auth().signIn(withEmail: emailTextfield.text!, link: passwordTextfield.text!, completion: {
+        Auth.auth().signIn(withEmail: emailTextfield.text!, password: passwordTextfield.text!, completion: {
             (user, error) in
             if error != nil {
                 print(error ?? "error")
