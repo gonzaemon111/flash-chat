@@ -20,13 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //TODO: Initialise and Configure your Firebase here:
         FirebaseApp.configure()
         
-        let myDatabase = Database.database().reference().child("users")
-        print("-------------------")
-        print(InstanceID.instanceID())
-        print(myDatabase)
-        myDatabase.setValue("Hello World!")
-        print("-------------------")
-        
         return true
     }
     
